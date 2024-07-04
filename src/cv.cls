@@ -68,5 +68,5 @@
 \def\namesize{\Large}
 \def\nameskip{\medskip}
 \def\addressskip{\smallskip}
-\def\sectionskip{\bigskip}
+\def\sectionskip{\medskip \vspace{0.4em}}
 \def\sectionlineskip{\medskip}
