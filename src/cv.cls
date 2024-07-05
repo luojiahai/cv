@@ -1,6 +1,6 @@
 \ProvidesClass{cv}[]
 
-\LoadClass[10pt,letterpaper]{article}
+\LoadClass[11pt,letterpaper]{article}
 
 \usepackage[parfill]{parskip}       % Do not indent paragraphs
 \usepackage{array}                  % required for boldface tabular columns
