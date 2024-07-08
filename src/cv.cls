@@ -65,8 +65,8 @@
     \printaddress{\@addresstwo}}
 }
 
-\def\namesize{\LARGE}
+\def\namesize{\Large}
 \def\nameskip{\medskip}
 \def\addressskip{\smallskip}
-\def\sectionskip{\medskip}
+\def\sectionskip{\smallskip}
 \def\sectionlineskip{\smallskip}
