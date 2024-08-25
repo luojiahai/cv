@@ -55,7 +55,7 @@ ItalicFont={FandolKai-Regular}
 \newline \vspace{1.0pt}
 \begin{list}{}{\setlength{\leftmargin}{0pt}}
 \vspace{-16.0pt}
-\itemsep -2.0pt
+\itemsep -4.0pt
 }{\end{list}\vspace{2.0pt}}
 
 \newenvironment{xsubheading}[2]{
@@ -63,4 +63,4 @@ ItalicFont={FandolKai-Regular}
 \begin{list}{\raisebox{2.0pt}{\tiny$\bullet$}\space}{\setlength{\leftmargin}{12.0pt}}
 \vspace{-4.0pt}
 \itemsep -4.0pt
-}{\end{list}}
+}{\end{list}\vspace{2.0pt}}
