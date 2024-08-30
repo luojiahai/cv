@@ -50,22 +50,37 @@ ItalicFont={FandolKai-Regular}
 \itemsep -2.0pt
 }{\end{list}\sectionskip}
 
-\newenvironment{xheading}[2]{
-\item \textbf{#1} \hfill \textbf{#2}%
-\newline
-\vspace{0pt}
+\newenvironment{xheading1}[2]{
+\item \textbf{#1} \hfill \textbf{#2}
 \begin{list}{}{\setlength{\leftmargin}{0pt}}
-\vspace{-16.0pt}
+\vspace{-4.0pt}
 \itemsep -4.0pt
 }{\end{list}\vspace{1.0pt}}
 
-\newenvironment{xsubheading}[2]{
-\item {\textit{#1}} \hfill {#2}%
+\newenvironment{xheading2}[2]{
+\item \textbf{#1} \hfill {#2}
 \begin{list}{\raisebox{2.0pt}{\tiny$\bullet$}\space}{\setlength{\leftmargin}{12.0pt}}
 \vspace{-4.0pt}
 \itemsep -4.0pt
 }{\end{list}\vspace{1.0pt}}
 
-\newenvironment{xsubheadingonly}[2]{
-\item {\textit{#1}} \hfill {#2}%
-}{}
+\newenvironment{xheading3}[2]{
+\item \textbf{#1} \hfill {#2}
+\par
+}{\vspace{1.0pt}}
+
+\newenvironment{xheading4}[1]{
+\item \textbf{#1}:
+}{\vspace{1.0pt}}
+
+\newenvironment{xsubheading1}[2]{
+\item \textit{#1} \hfill {#2}
+\begin{list}{\raisebox{2.0pt}{\tiny$\bullet$}\space}{\setlength{\leftmargin}{12.0pt}}
+\vspace{-4.0pt}
+\itemsep -4.0pt
+}{\end{list}\vspace{1.0pt}}
+
+\newenvironment{xsubheading2}[2]{
+\item \textit{#1} \hfill {#2}
+\par
+}{\vspace{1.0pt}}
