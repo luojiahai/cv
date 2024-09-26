@@ -1,4 +1,4 @@
-\ProvidesClass{xsha}[]
+\ProvidesClass{waverley}[]
 \LoadClass[10pt,letterpaper]{article}
 \AddToHook{package/xeCJK/after}{\defaultCJKfontfeatures{}}
 
